@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Job Application Assistant</title>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.5} textarea{width:100%;min-height:180px;padding:12px} button{padding:10px 16px;margin:12px 0;cursor:pointer} .card{border:1px solid #ddd;border-radius:10px;padding:18px;margin-top:18px} .score{font-size:2rem;font-weight:700}
+  </style>
+</head>
+<body>
+  <h1>AI Job Application Assistant</h1>
+  <p>A transparent learning prototype for analysing a job description and identifying evidence, gaps and next steps before applying.</p>
+  <label for="job"><strong>Paste a job description</strong></label>
+  <textarea id="job" placeholder="Paste the requirements here..."></textarea>
+  <button onclick="analyse()">Analyse fit</button>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
